@@ -11,8 +11,10 @@ var y = 10;
 // 1.4
 var z = h + y;
 
-// Puedes imprimir los resultados en la consola para verificar
+// ver resultados en la consola para verificar
 console.log('1.1 myFavoriteHero:', myFavoriteHero);
 console.log('1.2 x:', x);
 console.log('1.3 h:', h, 'y:', y);
 console.log('1.4 z:', z);
+
+
