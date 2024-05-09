@@ -1,5 +1,5 @@
 function findArrayIndex(array, text) {
-    // Utilizar el método indexOf para buscar el texto en el array
+    // Uso el método indexOf para buscar el texto en el array
     // Este método me devuelve el índice del primer elemento que coincida con el texto
     // Si no se encuentra el texto, devuelve -1
     return array.indexOf(text);
