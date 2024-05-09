@@ -1,0 +1,21 @@
+function findArrayIndex(array, text) {
+    // Utilizar el método indexOf para buscar el texto en el array
+    // Este método me devuelve el índice del primer elemento que coincida con el texto
+    // Si no se encuentra el texto, devuelve -1
+    return array.indexOf(text);
+}
+
+// Ejemplo de uso
+const words = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'];
+
+// Buscar 'Salamandra' en el array y mostrar su posición
+const position1 = findArrayIndex(words, 'Salamandra');
+console.log(`La posición de 'Salamandra' en el array es: ${position1}`); // Debería imprimir: La posición de 'Salamandra' en el array es: 2
+
+// Buscar 'Mosquito' en el array y mostrar su posición
+const position2 = findArrayIndex(words, 'Mosquito');
+console.log(`La posición de 'Mosquito' en el array es: ${position2}`); // Debería imprimir: La posición de 'Mosquito' en el array es: 1
+
+// Buscar 'Cocodrilo' en el array (que no está presente) y mostrar su posición
+const position3 = findArrayIndex(words, 'Cocodrilo');
+console.log(`La posición de 'Cocodrilo' en el array es: ${position3}`); // Debería imprimir: La posición de 'Cocodrilo' en el array es: -1
